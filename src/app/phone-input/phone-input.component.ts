@@ -17,7 +17,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR, FormGroup, FormBuilder, FormsM
 })
 export class PhoneInputComponent implements ControlValueAccessor {
 
-  @Input() data:string = "";
+  data:string = "";
   onChangeCb?: (val: any) => void;
   onTouchedCb?: () => void;
   isDisabled:boolean = false;
